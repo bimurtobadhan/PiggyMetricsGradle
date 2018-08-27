@@ -1,0 +1,14 @@
+allprojects  {
+	apply plugin: 'java'
+
+	group = 'com.piggymetrics'
+	version = '1.0-SNAPSHOT'
+}
+
+subprojects {
+	apply plugin: 'java'
+
+	repositories {
+		mavenLocal()
+	}
+}
